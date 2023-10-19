@@ -7,8 +7,8 @@ body {
     height: 540px;
     width: 630px;
 
-    background-color: blue;
-    border: 10px solid navy;
+    background-color: green;
+    border: 10px solid darkgreen;
 
     margin: 0 auto;
     display: flex;
@@ -21,14 +21,14 @@ body {
 
     background-color: white;
     border-radius: 50%; 
-    border: 5px solid navy;
+    border: 5px solid darkgreen;
     margin: 5px;
 }
 
 .player1 {
-    background-color: red;
+    background-color: purple;
 }
 
 .player2 {
-    background-color: yellow;
+    background-color: pink;
 }

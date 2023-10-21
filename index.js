@@ -1,4 +1,6 @@
 // Declaring variables for the components of the connect four game
+var mode
+
 let firstplayer = "R"
 let secondplayer = "Y"
 
@@ -7,11 +9,35 @@ let currentP = firstplayer
 let gameOver = false
 let currentC
 let board
-
 const rows = 6
 const columns = 7
+// adding start screen by writing a mode variable
+
+function setup() {
+    mode = 0
+    createCanvas(600,400)
+    textSize(21)
+}
+
+function draw() {
+    clear()
+    if(mode==0) {
+        text('Press Any Key To Start', 20,40)
+    }
+    if(mode==1) {
+      
+    }
+}
+
+function keyPressed() {
+    if(keyCode===ENTER) {
+        mode=1
+    }
+}
+
+
 // setting the board as soon as page loads
-window.onload = function() {
+  window.onload = function() {
     setGame()
 }
 
@@ -124,4 +150,5 @@ function setWinner(r, c) {
     }
 
 gameOver = true
+
 }

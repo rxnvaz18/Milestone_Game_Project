@@ -1,9 +1,9 @@
 # Milestone_Game_Project
 Milestone for SDSU 09 web browser game
 
-GAME PLAN
+This is Roxana Vazquez Milestone project for a Software Development Program.
 
-HTML: size of the grid
-button to start game, board is clear, click on column place disk at bottom spot on the bottom, event handler for bottom, check for win function, player 1 then check for win, player 2 check for win change. keep track of wins of player 1 and player 2 for more than one consecutive game
-CSS: style the game look (probably area for bonus points)
-JS: gameplay for checking wins on board and alternating between players. Stating who won.
+INSTRUCTIONS TO PLAY:
+1. Click on the column where you want your piece to fall in. 
+2. Connect four in a row in any direction to win.
+3. You can refresh the page or press the rest button.

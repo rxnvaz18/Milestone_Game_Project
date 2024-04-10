@@ -4,12 +4,13 @@
   "description": "Milestone for SDSU 09 web browser game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.74.1"
+    "sass": "^1.74.1",
+    "typescript": "^5.4.4"
   }
 }

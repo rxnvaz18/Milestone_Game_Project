@@ -131,9 +131,3 @@ gameOver = true
 
 }
 
-// reset.onclick = function resetGame() {
-//     setGame()
-//     gameplay()
-//     checkWinner()
-//     setWinner()
-// }
